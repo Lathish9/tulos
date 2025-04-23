@@ -1,6 +1,0 @@
-echo "[build]
-command = \"npm install --legacy-peer-deps && npm run build\"
-publish = \".next\"
-
-[context.production.environment]
-NODE_VERSION = \"18\"" > netlify.toml
